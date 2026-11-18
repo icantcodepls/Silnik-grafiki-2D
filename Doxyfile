@@ -1,0 +1,21 @@
+# Konfiguracja Doxygen dla Silnika 2D.   Uruchomienie:  doxygen Doxyfile   (albo: cmake --build . --target docs)
+# Wynik: docs/html/index.html
+PROJECT_NAME           = "Silnik 2D"
+PROJECT_BRIEF          = "Programowy silnik 2D (C++20, SFML 3) z sandboxem i demem gry"
+OUTPUT_DIRECTORY       = docs
+OUTPUT_LANGUAGE        = Polish
+INPUT_ENCODING         = UTF-8
+INPUT                  = README.md engine game SandboxApp.h SandboxApp.cpp main.cpp
+FILE_PATTERNS          = *.h *.cpp *.md
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+JAVADOC_AUTOBRIEF      = NO
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = NO
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = NO
+SOURCE_BROWSER         = YES

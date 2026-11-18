@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Patryk/CLionProjects/grafika",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\grafika.dir\\main.cpp.obj -c C:\\Users\\Patryk\\CLionProjects\\grafika\\main.cpp",
+  "file": "C:/Users/Patryk/CLionProjects/grafika/main.cpp",
+  "output": "C:/Users/Patryk/CLionProjects/grafika/CMakeFiles/grafika.dir/main.cpp.obj"
+}
+]
